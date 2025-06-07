@@ -2,7 +2,7 @@ import reflex as rx
 import web.components.styles.styles as styles
 from web.components.button_link import button_link_linkedin, button_link_github
 from web.components.tittle import tittle
-from web.views.header.presentation_pic import presentation_pic 
+from web.views.presentation_pic import presentation_pic 
 
 
 def links() -> rx.Component:
