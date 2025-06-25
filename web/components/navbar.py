@@ -10,6 +10,31 @@ def navbar() -> rx.Component:
                 href=ruta.HOME.value,
                 is_external=False,
         ),
+        rx.spacer(),
+        rx.menu.root(
+            rx.menu.trigger(
+                rx.button(
+                    rx.text("Apps", style=styles.navbar_title_style),
+                    rx.icon("chevron-down"),
+                    width="10%",
+                    height="50%",
+                    background_color="transparent",
+                    _hover = {
+                        "background_color": "transparent",
+                        "color": styles.Text_color.BODY.value,
+                    },
+                ),
+            ),
+            rx.menu.content(
+                rx.menu.item(
+                    rx.link(
+                        rx.text("URL Check"),
+                        href=ruta.LINK_CHECK.value,
+                        is_external=False,
+                    )
+                ),
+            ),
+        ),
         position="sticky",
         bg = "linear-gradient(to bottom, #0A0B10, #1A1B29)",
         padding_x=Size.DEFAULT.value,
