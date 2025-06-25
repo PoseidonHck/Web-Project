@@ -14,7 +14,7 @@ _meta=[
 ## INDEX
 
 index_tittle = "Luis Lamus Portfolio"
-index_description = "Hola, soy Luis Lamus, Técnico de Ciberseguridad y Desarrollador Web. Aquí encontrarás mi portafolio con proyectos y habilidades en ciberseguridad, desarrollo web y más.",
+index_description = "Hola, soy Luis Lamus, Técnico de Ciberseguridad y Desarrollador Web. Aquí encontrarás mi portafolio con proyectos y habilidades en ciberseguridad, desarrollo web y más."
 
 index_meta = [
     {"name": "og:title", "content": index_tittle},
