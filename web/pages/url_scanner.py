@@ -15,7 +15,5 @@ from web.components.navbar import navbar
 def url_scanner() -> rx.Component:
     return rx.box(
         navbar(),
-        rx.center(
-            urlScanner()
-        ),
+        urlScanner()
     )
